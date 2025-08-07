@@ -26,13 +26,13 @@ Este projeto é uma API REST feita com **Spring Boot** que realiza operações m
 ## 🛠️ Endpoints Principais
 
 | Método | Endpoint                      | Descrição                         |
-|--------|-------------------------------|-----------------------------------|
-| GET    | `/sum/{num1}/{num2}`          | Soma dois números                 |
-| GET    | `/sub/{num1}/{num2}`          | Subtrai o segundo do primeiro     |
-| GET    | `/mult/{num1}/{num2}`         | Multiplica dois números           |
-| GET    | `/div/{num1}/{num2}`          | Divide o primeiro pelo segundo    |
-| GET    | `/avg/{num1}/{num2}`          | Calcula a média entre dois números|
-| GET    | `/sqrt/{num}`                 | Retorna a raiz quadrada do número |
+|--------|------------------------------|----------------------------------|
+| GET    | `/add/{num1}/{num2}`          | Soma dois números                 |
+| GET    | `/subtract/{num1}/{num2}`     | Subtrai o segundo do primeiro    |
+| GET    | `/multiply/{num1}/{num2}`     | Multiplica dois números           |
+| GET    | `/divide/{num1}/{num2}`       | Divide o primeiro pelo segundo    |
+| GET    | `/average/{num1}/{num2}`      | Calcula a média entre dois números|
+| GET    | `/squareRoot/{num}`           | Retorna a raiz quadrada do número |
 
 ---
 
@@ -45,5 +45,5 @@ Exemplos de exceções personalizadas tratadas:
   {
     "timestamp": "2025-08-06T20:00:00",
     "message": "Por favor, informe um valor numérico!",
-    "details": "uri=/sum/a/2"
+    "details": "uri=/add/a/2"
   }
